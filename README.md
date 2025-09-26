@@ -16,9 +16,13 @@ I will add more as I go.
 ## Structure
 
 apple-health-data/
+
 ├─ README.md
+
 ├─ data/ # anonymised CSVs
+
 ├─ R/ # R scripts for parsing, cleaning, plotting
+
 ├─ assets/html/ # interactive Plotly plots for sharing or embedding
 
 
