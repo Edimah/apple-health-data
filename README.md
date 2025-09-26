@@ -21,13 +21,6 @@ apple-health-data/
 ├─ R/ # R scripts for parsing, cleaning, plotting
 ├─ assets/html/ # interactive Plotly plots for sharing or embedding
 
-## Example
-
-One of the first visualisations is a **bar plot of workout activity types**. It shows the distribution of different workouts over time and is interactive (hover over bars to see counts).  
-
-![example plot](assets/html/workout_types_example.png)  <!-- optional static fallback image -->
-
----
 
 ## Usage
 
