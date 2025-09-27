@@ -3,8 +3,6 @@
 *.xml
 
 # Ignore R files
-*.R
-*.r
 *.Rhistory
 *.RData
 *.Rproj
