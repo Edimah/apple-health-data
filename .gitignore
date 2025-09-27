@@ -1,0 +1,11 @@
+# Ignore all CSV and XML files
+*.csv
+*.xml
+
+# Ignore R files
+*.R
+*.r
+*.Rhistory
+*.RData
+*.Rproj
+.Rproj.user/
