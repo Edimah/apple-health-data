@@ -31,7 +31,7 @@ A few examples :
 
 In this project, I focused on `export.xml` for readability and reproducibility.
 
-### Placing export in the repo
+### Placing export in the repo 📂
 
 Put `export.xml`in `apple-health-data/data/export.xml`.
 
