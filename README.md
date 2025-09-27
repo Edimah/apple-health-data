@@ -1,38 +1,21 @@
-# Apple Health Data
+# Apple Health Data Analysis
 
-This repository contains anonymised Apple Health data and R scripts for importing, cleaning, and visualising personal fitness metrics.  
+This repository contains R scripts to process and visualise your **Apple Health data**.
 
-I have been collecting health data using my iPhone and Apple Watch for almost two years. I was curious what could be gleaned from it. So far, in this repo I have explored: 
+## Getting Started
 
-- **Exporting Apple Health data** from an iPhone,
-- **Importing and parsing XML** with `xml2`  
-- **Cleaning and tidying** the data with `dplyr` and `lubridate`  
-- Creating **interactive visuals** using `ggplot2` and `plotly`  
+### 1. Export your Apple Health data
+1. Open the Health app on your iPhone.
+2. Tap your **profile picture** → **Export Health Data**.
+3. Save the exported `export.xml`.
 
-I will add more as I go.
+### 2. Place your export
+Put your `export.xml` in: apple-health-data/data/export.xml
 
----
+> For privacy, this repo does not include sample data. You must provide your own export.
 
-## Structure
+### 3. Run the import script
+Convert XML nodes of interest into CSV files
 
-apple-health-data/
-
-├─ README.md
-
-├─ data/ # anonymised CSVs
-
-├─ R/ # R scripts for parsing, cleaning, plotting
-
-├─ assets/html/ # interactive Plotly plots for sharing or embedding
-
-
-## Usage
-
-1. Clone the repo,
-2. Open R scripts in R/ to reproduce analyses,
-3. Visualise plots saved to assets/html/.
-
-**Notes**
-The data is anonymised and safe for public sharing.
-Future updates will include more visualisations and summaries from Apple Health metrics.
+### 4. Run the visualisation scripts for each chosen csv
 
